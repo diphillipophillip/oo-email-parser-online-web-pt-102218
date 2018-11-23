@@ -8,7 +8,7 @@ class EmailParser
   def initialize(emails)
     @@array << emails
     binding.pry
-
+  end
   end 
   
   
