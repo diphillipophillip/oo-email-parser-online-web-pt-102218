@@ -16,7 +16,7 @@ class EmailParser
       @new_array = []
       @@array.each do |i| 
         @new_array << i 
-      
+      end
     end 
   end 
   
