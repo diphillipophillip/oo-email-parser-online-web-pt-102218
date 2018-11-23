@@ -13,8 +13,8 @@ class EmailParser
     end
     
     def parse 
-      
-      
+      @@array 
+      binding.pry
     end 
   end 
   
