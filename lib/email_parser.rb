@@ -14,7 +14,7 @@ class EmailParser
     
     def parse
       @new_array = []
-      @@array.each do |i| 
+      @@array.map do |i| 
         @new_array << i 
       end
     end 
