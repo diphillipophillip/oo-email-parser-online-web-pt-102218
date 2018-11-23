@@ -12,8 +12,10 @@ class EmailParser
     
     end
     
-    def parse 
-      @@array 
+    def parse
+      @new_array = []
+      @@array.each do |i| 
+        @new_array << i 
       
     end 
   end 
